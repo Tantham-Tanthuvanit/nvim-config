@@ -8,5 +8,9 @@ return {
     vim.g.everforest_background = 'hard'
     vim.g.everforest_transparent_background = '1'
     vim.g.everforest_enable_italic = true
+<<<<<<< HEAD
+=======
+    vim.cmd.colorscheme 'everforest'
+>>>>>>> 7356923ef4725894f05b549d5e741a3015cf89c2
   end,
 }

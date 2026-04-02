@@ -897,10 +897,17 @@ require('lazy').setup({
         },
       }
 
+<<<<<<< HEAD
       vim.cmd.colorscheme 'lackluster' -- my favorite
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
+=======
+      -- Load the colorscheme here.
+      -- Like many other themes, this one has different styles, and you could load
+      -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
+      vim.cmd.colorscheme 'tokyonight'
+>>>>>>> 7356923ef4725894f05b549d5e741a3015cf89c2
     end,
   },
 
@@ -950,7 +957,11 @@ require('lazy').setup({
     main = 'nvim-treesitter.config', -- Sets main module to use for opts
     -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
     opts = {
+<<<<<<< HEAD
       ensure_installed = { 'bash', 'c', 'cpp', 'diff', 'python', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
+=======
+      ensure_installed = { 'bash', 'c', 'diff', 'python', 'html', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc' },
+>>>>>>> 7356923ef4725894f05b549d5e741a3015cf89c2
       -- Autoinstall languages that are not installed
       auto_install = true,
       highlight = {
@@ -1020,4 +1031,7 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+<<<<<<< HEAD
 --
+=======
+>>>>>>> 7356923ef4725894f05b549d5e741a3015cf89c2
