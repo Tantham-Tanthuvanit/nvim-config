@@ -14,7 +14,7 @@ return {
         folds = true,
       },
       contrast = 'hard', -- "soft", "medium", "hard"
-      transparent_mode = true,
+      transparent_mode = false,
     }
   end,
 }

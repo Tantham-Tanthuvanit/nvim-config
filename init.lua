@@ -923,7 +923,8 @@ require('lazy').setup({
         },
       }
 
-      vim.cmd.colorscheme 'lackluster' -- my favorite
+      vim.cmd.colorscheme 'gruvbox' -- my favorite
+
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
